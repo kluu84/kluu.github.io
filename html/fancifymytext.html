@@ -8,7 +8,6 @@
 		<script type="text/javascript" src="https://kluu84.github.io/kluu.github.io/fancifymytext.js"></script>
 
 	</head>
-
 	<body>
 		<h1>Fancify my Text</h1>
 		<label for="textFieldSet">Text:</label>
@@ -19,12 +18,18 @@
 		<label for="fancifyFieldSet">Fancify:</label>
 
 		<fieldset id="fancifyFieldSet">
-			<button onClick = "makeTextBigger()" id="b1"> Bigger </button>
-			<input type="radio" id="myRadio">FancyShmancy</input>
-			<input type="radio" id="myRadio">BoringBetty</input>
+			<button onclick="makeTextBigger()" id="b1"> Bigger </button>
+			<br>
 
+			<label for="fancy">FancyShmancy</label>
+			<input type="radio" id="fancy" onchange="makeTextFancy()">
+			<br>
+
+			<label for="boring">BoringBetty</label>
+			<input type="radio" id="boring" onchange="makeTextBoring()">
+			<br>
 			
-			<button onclick="Click()" id="b2"> Click </button>
+			<button onclick="Click()" id="b2"> Moo </button>
 		</fieldset>
 
 	</body>
