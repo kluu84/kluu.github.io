@@ -23,12 +23,12 @@ function makeTextFancy() {
     }
 }
 
-function moo() {
-    var mooElem = document.getElementById("textInput");
-    mooElem.value = mooElem.value.toUpperCase();
-    var parts = mooElem.value.split(".");
+function Click() {
+    var Click = document.getElementById("textInput");
+    Click.value = Click.value.toUpperCase();
+    var parts = Click.value.split(".");
     for (var i = 0; i< parts.length; i++){
-        parts[i] = parts[i] + "Moo";
+        parts[i] = parts[i] + "Click";
     }
-    mooElem.value = parts.join(".");
+    Click.value = parts.join(".");
 }
