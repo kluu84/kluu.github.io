@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title> JavaScript Timers </title>
 
+		<style>
+			body{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+				font:normal 18px/1.5 'PT Sans Narrow, sans-serif;
+			}
+
+			button{
+				font-size: 25px;
+				text-align: center;
+			}
+		</style>
+
+		<body>
+			<center><font color="#800000"><h1>Welcome to CSC 196W Course</font></h1>
+			<button onClick="clearInterval(myValue)"> Stop </button>
+			<p id="demo"> </p>
+		</body>
+		<script>
+			var myValue=setInterval(Time, 1000);
+			function Time(){
+			var date = new Date();
+			document.getElementById("demo").innerHTML = date.toLocaleTimeString();
+			}
+		</script>
+
+	</head>
+
+	
