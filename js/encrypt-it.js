@@ -25,7 +25,7 @@
   // Add any other functions in this area (you should not implement your
   // entire program in the init function, for similar reasons that
   // you shouldn't write an entire Java program in the main method).
-  function click() {
+  function handleClick() {
     console.log("Button clicked!");
     const inputText = document.getElementById('input-text');
     const resultArea = document.getElementById('result');
