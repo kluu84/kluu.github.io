@@ -1,3 +1,6 @@
+// Khanh Luu -ID: 301526589
+// CSC 196W
+// Week6
 
 (function() {
   "use strict";
