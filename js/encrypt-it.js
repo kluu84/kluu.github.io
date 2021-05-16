@@ -1,7 +1,8 @@
-// Khanh Luu -ID: 301526589
-// CSC 196W
-// Week6
-
+/*
+ * Starter file 
+ * Minh Nguyen
+ * CSC 196W
+ */
 (function() {
   "use strict";
 
@@ -25,7 +26,7 @@
   // Add any other functions in this area (you should not implement your
   // entire program in the init function, for similar reasons that
   // you shouldn't write an entire Java program in the main method).
-  function handleClick() {
+  function click() {
     console.log("Button clicked!");
     const inputText = document.getElementById('input-text');
     const resultArea = document.getElementById('result');
@@ -34,7 +35,7 @@
 
   function shiftCipher(text) {
     text = text.toLowerCase();
-    const upgrade = 10;
+    const upgrade = 5;
     let result = '';
     for (let i = 0; i <text.length; i++) {
       if (text.charCodeAt(i) >= 97 && text.charCodeAt(i) <= 122) {
