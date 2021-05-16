@@ -1,5 +1,5 @@
 // CSC 196W 
-// Minh Nguyen
+// Khanh Luu
 // JavaScript code for fancifymytext
 
 function makeTextBigger() {   
